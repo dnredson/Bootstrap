@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+   integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/all.css"> 
+<link rel="stylesheet" href="style.css">
+
+<head>
+ 
+    <title>Hello, world!</title>
+</head>
+ 
+<body>
+        <div class="container-fluid m-0 p-0">
+      <!-- NavBar Start -->
+    
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">
+        <img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30">
+        Meu primeiro site
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#sobre">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#interesses">Interesses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experiencia">Experiência</a>
+        </li>    
+        <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>    
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Link 1</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+          </li>
+
+
+          </ul>
+      
+        </ul>
+        <form class="form-inline" action="/action_page.php">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+    </div>  
+    
+  </nav>
+      <!-- NavBar End -->
+        <!-- Carousel Begin -->
+      <div id="demo" class="carousel slide d-none d-md-block" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item ">
+            <img src="img/bb3.jpg" alt="Los Angeles">
+          </div>
+          <div class="carousel-item ">
+            <img src="img/heitor-5.jpg" alt="Chicago">
+          </div>
+          <div class="carousel-item active">
+            <img src="img/trip-nacaozumbi-header.jpg" alt="New York">
+            <div class="carousel-caption ">
+                    <h3>Este é o título</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra feugiat tellus sed placerat. Curabitur condimentum augue semper pulvinar elementum. Fusce condimentum dui sit amet dapibus commodo. Vivamus id sodales erat. Integer scelerisque ac lacus nec fringilla. Duis ut suscipit mauris, ac sagittis dolor. Vivamus rutrum, quam sed congue sollicitudin.</p>
+
+            </div>
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
+         
+<!-- Carousel End -->
+<!-- About start -->
+<div class="row" id="sobre">
+    <div class="col-12 text-center pt-5 pb-5">
+        <p class="display-4">Sobre mim</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra feugiat tellus sed placerat.
+            Curabitur condimentum augue semper pulvinar elementum. Fusce condimentum dui sit amet dapibus commodo.
+            Vivamus id sodales erat. Integer scelerisque ac lacus nec fringilla. Duis ut suscipit mauris, ac sagittis
+            dolor. Vivamus rutrum, quam sed congue sollicitudin.</p>
+
+<!-- Button to Open the Modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Open modal
+  </button>
+  
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Mais detalhes sobre mim</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          Aqui você tem detalhes sobre mim que eu não vou escrever porque ninguém quer detalhes sobre mim
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+    </div>
+
+</div>
+<!-- About End -->
+<!-- Cards Start -->
+<div class="row" id="interesses">
+    <div class="col-12 text-center">
+        <p class="display-4">Meus interesses</p>
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-md-4">
+        <div class="card" >
+            <img class="card-img-top img-fluid" src="img/eng_ps_6-pcs-knife-set-Metallic-Line-Aquamarine-Edition-15439_2.jpg" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Cutelaria</h4>
+                <p class="card-text">Blacksmith</p>
+               
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-4">
+        <div class="card" >
+            <img class="card-img-top img-fluid" src="img/download (1).jfif" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Artes Marciais</h4>
+                <p class="card-text">Some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-4">
+        <div class="card" >
+            <img class="card-img-top img-fluid" src="img/download.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">IoT</h4>
+                <p class="card-text">Some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</div>
+
+<div class="row mt-3">
+    <div class="col-md-4">
+        <div class="card" >
+            <img class="card-img-top img-fluid" src="img/eng_ps_6-pcs-knife-set-Metallic-Line-Aquamarine-Edition-15439_2.jpg" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Cutelaria</h4>
+                <p class="card-text">Blacksmith</p>
+               
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-4">
+        <div class="card" >
+            <img class="card-img-top img-fluid" src="img/download (1).jfif" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Artes Marciais</h4>
+                <p class="card-text">Some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-4">
+        <div class="card" >
+            <img class="card-img-top img-fluid" src="img/download.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">IoT</h4>
+                <p class="card-text">Some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</div>
+<!-- Cards End -->
+<!-- Accordion Start-->
+<div class="row pt-5 bg-light" id="experiencia">
+    <div class="col-12">
+        <p class="display-4 text-center">Minha experiência </p>
+    </div>
+</div>
+<div id="accordion">
+
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          IoT
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
+          4 anos de pesquisa em IoT
+        </div>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+          Programação back-end
+        </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          Nodejs, Java, 
+        </div>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+          Collapsible Group Item #3
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum..
+        </div>
+      </div>
+    </div>
+  
+  </div>
+<!-- Accordion End-->
+
+
+<!-- Custom1 -->
+
+
+<!-- Custom2 -->
+
+
+
+<div style="min-height: 500px;"></div>
+
+
+
+    
+       <!-- Footer -->
+        <footer class="bg-dark text-light text-center footer ">
+
+            <div class="row">
+                <div class="col-6 pt-2">
+                    Nossas Redes Sociais
+                 <ul class="list-group pt-2 list-group-flush">
+                     <li class="list-group-item bg-dark text-left"><i class='fab fa-facebook'></i> Facebook</li>
+                     <li class="list-group-item bg-dark text-left"><i class='fab fa-twitter'></i> Twitter</li>
+                     <li class="list-group-item bg-dark text-left"><i class='fab fa-instagram'></i> Instagram</li>
+                   </ul>
+                </div> 
+               <div class="col-6 pt-2">
+                   Navegação rápida
+                <ul class="list-group pt-2 list-group-flush">
+                    <li class="list-group-item bg-dark text-left">Sobre</li>
+                    <li class="list-group-item bg-dark text-left">Contatos</li>
+                    <li class="list-group-item bg-dark text-left">Third item</li>
+                  </ul>
+               </div> 
+            </div>
+            <div class="row">
+                <div class="col-12 mb-3 mt-3 text-center ">Grandeporte@2021</div>
+            </div>
+            
+        </footer>
+       <!-- End Footer -->
+ 
+    </div>
+ 
+ 
+</footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+ 
+</body>
+ 
+</html>

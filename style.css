@@ -1,0 +1,38 @@
+.col-sm-12{
+    background: rgb(36, 131, 134) !important;
+}
+.main-navbar{
+    font-size: 10px !important;
+}
+
+.roberto{
+    width: 100%;
+    height: 600px;
+}
+
+.slide-custom{
+    max-height: 600px !important;
+} 
+
+.scroll-spy{
+    position: relative;
+    overflow:auto;
+    height: 200px !important;
+
+    
+}
+
+
+.red{
+    background-color:red !important;
+    
+}
+/* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  } */

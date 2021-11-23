@@ -1,0 +1,32 @@
+Front-end library
+https://fontawesome.com/v5.15/icons?d=gallery&p=2
+
+Reforçar FLEXbox
+
+BootStrap
+> Introdução ao Bootstrap 4
+> Navbar
+• Container Fluid
+• Carousel
+• Grid
+• Blockquote
+• Collapse
+• Footer
+• Modal
+• Galeria
+• Tabela
+• Formulários
+• Tooltip
+• Otimização e personalização
+
+
+Performance
+511ms at end
+
+JS and CSS Header
+JS and CSS footer
+CSS H and JS F
+
+ctrl k c
+ctrl k f
+ctrl k u
